@@ -15,3 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::post('/login','LoginController@login');//注册
+Route::post('/reg','regController@open');//注册
